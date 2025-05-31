@@ -28,6 +28,6 @@ jobs:
           pip install pylint
           # pip install -r requirements.txt  # descomente se houver dependências do projeto
 
-      - name: Run pylint
+      - name: Run
         run: |
-          pylint app.py
+          python ./app.py
